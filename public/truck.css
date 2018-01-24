@@ -1,0 +1,357 @@
+body { overflow:hidden;}
+.driving-area {
+  position: absolute;
+  top:205px;
+  width: 100%;
+}
+.large-truck-face-left {
+  position: absolute;
+  right: -18%;
+  -webkit-animation: large-truck-move-left 30s linear infinite;
+          animation: large-truck-move-left 30s linear infinite;
+      -webkit-animation-delay:3s;
+            animation-delay:3s;
+}
+.large-tire1-left {
+ -webkit-transform-origin: 50px 96px;
+     -ms-transform-origin: 50px 96px;
+         transform-origin: 50px 96px;
+  -webkit-animation: wheels-left 0.3s linear infinite;
+          animation: wheels-left 0.3s linear infinite;
+}
+.large-tire2-left {
+ -webkit-transform-origin: 163px 96px;
+     -ms-transform-origin: 163px 96px;
+         transform-origin: 163px 96px;
+  -webkit-animation: wheels-left 0.3s linear infinite;
+          animation: wheels-left 0.3s linear infinite;
+}
+.large-tire3-left {
+ -webkit-transform-origin: 200px 96px;
+     -ms-transform-origin: 200px 96px;
+         transform-origin: 200px 96px;
+  -webkit-animation: wheels-left 0.3s linear infinite;
+          animation: wheels-left 0.3s linear infinite;
+}
+.large-tire4-left {
+ -webkit-transform-origin: 373px 96px;
+     -ms-transform-origin: 373px 96px;
+         transform-origin: 373px 96px;
+  -webkit-animation: wheels-left 0.3s linear infinite;
+          animation: wheels-left 0.3s linear infinite;
+}
+.large-tire5-left {
+ -webkit-transform-origin: 410px 96px;
+     -ms-transform-origin: 410px 96px;
+         transform-origin: 410px 96px;
+  -webkit-animation: wheels-left 0.3s linear infinite;
+          animation: wheels-left 0.3s linear infinite;
+}
+.large-tire6-left {
+ -webkit-transform-origin: 446px 96px;
+     -ms-transform-origin: 446px 96px;
+         transform-origin: 446px 96px;
+  -webkit-animation: wheels-left 0.3s linear infinite;
+          animation: wheels-left 0.3s linear infinite;
+}
+.large-truck-face-right {
+  position: absolute;
+  left: -18%;
+  -webkit-animation: large-truck-move-right 24s linear infinite;
+          animation: large-truck-move-right 24s linear infinite;
+    -webkit-animation-delay:15s;
+            animation-delay:15s;
+}
+.large-tire1-right {
+-webkit-transform-origin: 475px 96px;
+    -ms-transform-origin: 475px 96px;
+        transform-origin: 475px 96px;
+  -webkit-animation: wheels-right 0.3s linear infinite;
+          animation: wheels-right 0.3s linear infinite;
+}
+.large-tire2-right {
+ -webkit-transform-origin: 362px 96px;
+     -ms-transform-origin: 362px 96px;
+         transform-origin: 362px 96px;
+  -webkit-animation: wheels-right 0.3s linear infinite;
+          animation: wheels-right 0.3s linear infinite;
+}
+.large-tire3-right {
+ -webkit-transform-origin: 325px 96px;
+     -ms-transform-origin: 325px 96px;
+         transform-origin: 325px 96px;
+  -webkit-animation: wheels-right 0.3s linear infinite;
+          animation: wheels-right 0.3s linear infinite;
+}
+.large-tire4-right {
+ -webkit-transform-origin: 153px 96px;
+     -ms-transform-origin: 153px 96px;
+         transform-origin: 153px 96px;
+  -webkit-animation: wheels-right 0.3s linear infinite;
+          animation: wheels-right 0.3s linear infinite;
+}
+.large-tire5-right {
+ -webkit-transform-origin: 117px 96px;
+     -ms-transform-origin: 117px 96px;
+         transform-origin: 117px 96px;
+  -webkit-animation: wheels-right 0.3s linear infinite;
+          animation: wheels-right 0.3s linear infinite;
+}
+.large-tire6-right {
+ -webkit-transform-origin: 79px 96px;
+     -ms-transform-origin: 79px 96px;
+         transform-origin: 79px 96px;
+  -webkit-animation: wheels-right 0.3s linear infinite;
+          animation: wheels-right 0.3s linear infinite;
+}
+
+.mid-truck-face-right {
+  position: absolute;
+  left: -10%;
+  -webkit-animation: mid-truck-move-right 28s linear infinite;
+          animation: mid-truck-move-right 28s linear infinite;
+    -webkit-animation-delay:7s;
+            animation-delay:7s;
+}
+.mid-tire1-right {
+-webkit-transform-origin: 203px 72px;
+    -ms-transform-origin: 203px 72px;
+        transform-origin: 203px 72px;
+  -webkit-animation: wheels-right 0.3s linear infinite;
+          animation: wheels-right 0.3s linear infinite;
+}
+.mid-tire2-right {
+-webkit-transform-origin: 86px 72px;
+    -ms-transform-origin: 86px 72px;
+        transform-origin: 86px 72px;
+  -webkit-animation: wheels-right 0.3s linear infinite;
+          animation: wheels-right 0.3s linear infinite;
+}
+.mid-tire3-right {
+-webkit-transform-origin: 55px 72px;
+    -ms-transform-origin: 55px 72px;
+        transform-origin: 55px 72px;
+  -webkit-animation: wheels-right 0.3s linear infinite;
+          animation: wheels-right 0.3s linear infinite;
+}
+
+.small-truck-face-left {
+  position: absolute;
+  right: -10%;
+  -webkit-animation: small-truck-move-left 23s linear infinite;
+          animation: small-truck-move-left 23s linear infinite;
+    -webkit-animation-delay: 12s;
+            animation-delay: 12s;
+}
+.small-tire1-left {
+-webkit-transform-origin: 23px 69px;
+    -ms-transform-origin: 23px 69px;
+        transform-origin: 23px 69px;
+  -webkit-animation: wheels-left 0.3s linear infinite;
+          animation: wheels-left 0.3s linear infinite;
+}
+.small-tire2-left {
+-webkit-transform-origin: 120px 69px;
+    -ms-transform-origin: 120px 69px;
+        transform-origin: 120px 69px;
+  -webkit-animation: wheels-left 0.3s linear infinite;
+          animation: wheels-left 0.3s linear infinite;
+}
+
+@-webkit-keyframes wheels-left {
+  0% {
+    -webkit-transform:rotate(0deg);
+            transform:rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform:rotate(-360deg);
+            transform:rotate(-360deg);
+  }
+}
+
+@keyframes wheels-left {
+  0% {
+    -webkit-transform:rotate(0deg);
+            transform:rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform:rotate(-360deg);
+            transform:rotate(-360deg);
+  }
+}
+@-webkit-keyframes wheels-right {
+  0% {
+    -webkit-transform:rotate(0deg);
+            transform:rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform:rotate(360deg);
+            transform:rotate(360deg);
+  }
+}
+@keyframes wheels-right {
+  0% {
+    -webkit-transform:rotate(0deg);
+            transform:rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform:rotate(360deg);
+            transform:rotate(360deg);
+  }
+}
+@-webkit-keyframes large-truck-move-left {
+  0% {
+    -webkit-transform:translateX(0%);
+            transform:translateX(0%);
+  }
+
+  100% {
+    -webkit-transform:translateX(-1500%);
+            transform:translateX(-1500%);
+  }
+}
+@keyframes large-truck-move-left {
+  0% {
+    -webkit-transform:translateX(0%);
+            transform:translateX(0%);
+  }
+
+  100% {
+    -webkit-transform:translateX(-1500%);
+            transform:translateX(-1500%);
+  }
+}
+@-webkit-keyframes large-truck-move-right {
+  0% {
+    -webkit-transform:translateX(0%);
+            transform:translateX(0%);
+  }
+
+  100% {
+    -webkit-transform:translateX(1500%);
+            transform:translateX(1500%);
+  }
+}
+@keyframes large-truck-move-right {
+  0% {
+    -webkit-transform:translateX(0%);
+            transform:translateX(0%);
+  }
+
+  100% {
+    -webkit-transform:translateX(1500%);
+            transform:translateX(1500%);
+  }
+}
+@-webkit-keyframes mid-truck-move-right {
+  0% {
+    -webkit-transform:translateX(0%);
+            transform:translateX(0%);
+  }
+
+  100% {
+    -webkit-transform:translateX(2100%);
+            transform:translateX(2100%);
+  }
+}
+@keyframes mid-truck-move-right {
+  0% {
+    -webkit-transform:translateX(0%);
+            transform:translateX(0%);
+  }
+
+  100% {
+    -webkit-transform:translateX(2100%);
+            transform:translateX(2100%);
+  }
+}
+
+@-webkit-keyframes small-truck-move-left {
+  0% {
+    -webkit-transform:translateX(0%);
+            transform:translateX(0%);
+  }
+
+  100% {
+    -webkit-transform:translateX(-3000%);
+            transform:translateX(-3000%);
+  }
+}
+@keyframes small-truck-move-left {
+  0% {
+    -webkit-transform:translateX(0%);
+            transform:translateX(0%);
+  }
+
+  100% {
+    -webkit-transform:translateX(-3000%);
+            transform:translateX(-3000%);
+  }
+}
+
+
+
+body {
+  background: #e8e8e8;
+}
+.menu {
+  position: relative;
+  overflow: hidden;
+  width: 70%;
+  margin: 40px auto;
+  background: #333;
+  font-size:0;
+}
+.menu a {
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+  width: 25%; /* 100% divided of number of elements */
+  box-sizing: border-box;
+  border-right: 2px solid #e8e8e8;
+  padding: 10px 5px;
+  color: #fff;
+  text-decoration: none;
+  text-align:center;
+  font-size: 14px;
+}
+.marge {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: -30%; /* at least width of .menudes a */
+  width: 25%;
+  height: 40px;
+  box-sizing: border-box;
+  background: #fff;
+  opacity:.5;
+  transition: 0.5s ease-in-out;
+}
+.menu a:nth-child(1):hover ~ .marge {
+  left: 0%;
+}
+.menu a:nth-child(2):hover ~ .marge {
+  left: 25%; /* 1/4 total width */
+}
+.menu a:nth-child(3):hover ~ .marge {
+  left: 50%; /* 2/4 total width */
+}
+.menu a:nth-child(4):hover ~ .marge {
+  left: 75%; /* 3/4 total width */
+}
+
+H1 {
+
+  font-family: Georgia, serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: #fc6c00;
+  letter-spacing: 1.4px;
+  border-bottom: solid 2px #fc6c00;
+  text-transform: uppercase;
+
+}
